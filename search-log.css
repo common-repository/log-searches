@@ -1,0 +1,42 @@
+#searchlog { border: 0px; }
+#searchlog thead td {
+	padding:8px 18px!important;
+	font-weight: bold;
+}
+#searchlog tbody td { padding: 8px 18px; }
+#searchlog .column-date { width: 79px; }
+#searchlog .column-term { word-wrap: break-word; }
+#searchlog tbody .column-ip {
+	width: 130px;
+	padding-right: 0;
+}
+#searchlog .column-ip img { margin: 0px 3px -3px 0; }
+#searchlog .column-delete {
+	width: 12px;
+	padding: 8px 2px 8px 0;
+}
+
+.slog-delete {
+    font-weight: bold;
+    font-size: 18px;
+    color: #CCC;
+}
+.slog-delete:hover { color: #999; }
+
+td.slog-arrow {
+    text-align: center;
+    font-size: 11px;
+	padding: 0 !important;
+}
+.slog-top { border-bottom: 1px solid #EEE; }
+.slog-bottom { border-top: 1px solid #EEE; }
+.slog-arrow a {
+    display: block;
+    padding: 8px 0;
+}
+.slog-arrow a:hover { background: #F6F6F6; }
+.slog-noresults {
+	text-align: center;
+	color: #999;
+	font-style: italic;
+}
